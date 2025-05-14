@@ -1,12 +1,12 @@
 # Servicio Telemático - API de Tareas
 
-Este es un ejemplo básico de un servicio telemático construido con FastAPI y desplegado usando Docker.
+servicio telemático construido con FastAPI y desplegado usando Docker.
 
-## 📦 Requisitos
+##  Requisitos
 - Docker
 - Git
 
-## 🚀 Instrucciones de despliegue
+##  Instrucciones de despliegue
 
 1. Clona este repositorio:
 ```bash
@@ -27,13 +27,13 @@ docker run -d -p 8000:8000 servicio-api
 4. Accede al API en tu navegador o Postman:
 - http://localhost:8000/docs → Documentación automática
 
-## 🧪 Endpoints disponibles
+##  Endpoints disponibles
 
 - `GET /` → Saludo inicial
 - `GET /tareas` → Lista de tareas
 - `POST /tareas` → Crear una tarea (JSON)
 
-## 🛠 Ejemplo de JSON para crear tarea
+## JSON para crear tarea
 ```json
 {
   "id": 1,
